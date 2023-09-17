@@ -10,10 +10,10 @@ public class ControleDeFluxo {
 
         System.out.println("Digite suas 4 Nota");
         int nota = s.nextInt();
-        nota = s.nextInt();
-        nota = s.nextInt();
-        nota = s.nextInt();
-        nota = (nota + nota + nota + nota) / 4;
+        nota += s.nextInt();
+        nota += s.nextInt();
+        nota += s.nextInt();
+        nota = nota / 4;
 
         if ( nota >= 7 ) {
             System.out.println("Parabéns, você foi aprovado.");
