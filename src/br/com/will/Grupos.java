@@ -28,8 +28,8 @@ public class Grupos {
             System.out.println("Grupo Masculino:" + grupoMasculino);
             System.out.println("Grupo Feminino:" + grupoFeminino);
 
-   }
+        }
 
-}
+    }
 
 }
