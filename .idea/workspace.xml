@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5941a4b4-abc7-4dae-b60b-6c4dace1b11d" name="Changes" comment="Tarefas-Colecoes">
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod13/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod13/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod13/PessoaJuridica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod13/Progama.java" afterDir="false" />
+    <list default="true" id="5941a4b4-abc7-4dae-b60b-6c4dace1b11d" name="Changes" comment="Tarefas-Abstrata">
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/ContratosFabrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Fabrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/FordK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Jeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/SemContratosFabrica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Colecoes_parte_2" />
+        <entry key="$PROJECT_DIR$" value="Tarefas_Colecoes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,67 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "Tarefas__Colecoes",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Tarefas__Abstrata&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Progama">
-    <configuration name="Colecoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.mod12.Colecoes" />
-      <module name="tarefa_classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.mod12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Grupos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.will.Grupos" />
-      <module name="tarefa_classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.will.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Progama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.mod13.Progama" />
-      <module name="tarefa_classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.mod13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Progama" />
-        <item itemvalue="Application.Colecoes" />
-        <item itemvalue="Application.Grupos" />
-      </list>
-    </recent_temporary>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Colecoes-parte-2">
@@ -130,7 +87,15 @@
       <updated>1695333447673</updated>
       <workItem from="1695333450280" duration="3021000" />
       <workItem from="1695337065509" duration="3449000" />
-      <workItem from="1695391905588" duration="9828000" />
+      <workItem from="1695391905588" duration="10515000" />
+      <workItem from="1695498564366" duration="2725000" />
+      <workItem from="1695501355073" duration="18000" />
+      <workItem from="1695501523327" duration="21000" />
+      <workItem from="1695501582012" duration="16000" />
+      <workItem from="1695501853377" duration="3000" />
+      <workItem from="1695501931037" duration="15000" />
+      <workItem from="1695528274236" duration="10000" />
+      <workItem from="1695675646631" duration="6674000" />
     </task>
     <task id="LOCAL-00003" summary="Tarefas-Colecoes">
       <option name="closed" value="true" />
@@ -140,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695402683152</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tarefas-Abstrata">
+      <option name="closed" value="true" />
+      <created>1695428295183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695428295183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Colecoes-parte-2" />
     <MESSAGE value="Tarefas-Colecoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarefas-Colecoes" />
+    <MESSAGE value="Tarefas-Abstrata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarefas-Abstrata" />
   </component>
 </project>
