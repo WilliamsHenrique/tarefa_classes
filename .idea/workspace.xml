@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5941a4b4-abc7-4dae-b60b-6c4dace1b11d" name="Changes" comment="Tarefas-Abstrata">
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/ContratosFabrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Fabrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/FordK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/Jeep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/mod14/SemContratosFabrica.java" afterDir="false" />
+    <list default="true" id="5941a4b4-abc7-4dae-b60b-6c4dace1b11d" name="Changes" comment="Tarefas-PadrãoProjeto1">
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod17/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod17/CarrosModernos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod17/Esportivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod17/SUVs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod17/Sedans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/mod17/Utilitario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Tarefas_Colecoes" />
+        <entry key="$PROJECT_DIR$" value="Tarefas_Abstrata" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,13 +52,33 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Tarefas__Abstrata&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Tarefas__PadraoProjeto1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Carro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.mod17.Carro" />
+      <module name="tarefa_classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.mod17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Carro" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Colecoes-parte-2">
@@ -95,7 +113,9 @@
       <workItem from="1695501853377" duration="3000" />
       <workItem from="1695501931037" duration="15000" />
       <workItem from="1695528274236" duration="10000" />
-      <workItem from="1695675646631" duration="6674000" />
+      <workItem from="1695675646631" duration="6942000" />
+      <workItem from="1695853028726" duration="918000" />
+      <workItem from="1695853969315" duration="8298000" />
     </task>
     <task id="LOCAL-00003" summary="Tarefas-Colecoes">
       <option name="closed" value="true" />
@@ -113,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695428295183</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tarefas-PadrãoProjeto1">
+      <option name="closed" value="true" />
+      <created>1695682593758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695682593758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +152,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Tarefas_PadraoProjeto1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -134,6 +174,7 @@
     <MESSAGE value="Colecoes-parte-2" />
     <MESSAGE value="Tarefas-Colecoes" />
     <MESSAGE value="Tarefas-Abstrata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarefas-Abstrata" />
+    <MESSAGE value="Tarefas-PadrãoProjeto1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarefas-PadrãoProjeto1" />
   </component>
 </project>
