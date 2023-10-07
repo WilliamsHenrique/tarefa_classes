@@ -11,8 +11,8 @@ import java.lang.annotation.Target;
  */
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
+@Target({ElementType.METHOD, ElementType.TYPE})
 public @interface Tabela {
-    String nome() default "Tabela";
+    String valor();
 }
 
